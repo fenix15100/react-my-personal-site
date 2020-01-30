@@ -17,16 +17,16 @@ const Router = () => {
                     component={Landing}
                 />
                 <Route 
-                    path='/react-my-personal-site/projects'
+                    path={'/react-my-personal-site/projects'}
                     component={Projects}
                 />
 
             <Route 
-                path='/react-my-personal-site/about-me'
+                path={'/react-my-personal-site/about-me'}
                 component={AboutMe}
             />
             <Route 
-                path='/react-my-personal-site/contact'
+                path={'/react-my-personal-site/contact'}
                 component={Contact}
             />
             <Route 
