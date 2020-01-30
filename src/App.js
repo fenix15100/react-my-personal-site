@@ -3,7 +3,6 @@ import React from 'react';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import Container from 'react-bootstrap/Container'
-import Button from 'react-bootstrap/Button'
 
 
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -18,8 +17,8 @@ import Router from './components/Router'
 function App() {
   return (
     <>
-    <Navbar className="header-bg" variant="light"  expand="lg" >
-      <Navbar.Brand href="/react-my-personal-site/"><Button className="boton">MyPersonalSite</Button></Navbar.Brand>
+    <Navbar className="header-bg" variant="dark"  expand="lg" >
+      <Navbar.Brand href="/react-my-personal-site/">My PortFolio</Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="mr-auto" >
