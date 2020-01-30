@@ -21,18 +21,20 @@ const Router = () => {
                     component={Projects}
                 />
 
-            <Route 
-                path={'/about-me'}
-                component={AboutMe}
-            />
-            <Route 
-                path={'/contact'}
-                component={Contact}
-            />
-            <Route 
-                path={'/resume'}
-                component={Resume}
-            />  
+                <Route 
+                    path={'/about-me'}
+                    component={AboutMe}
+                />
+                
+                <Route 
+                    path={'/resume'}
+                    component={Resume}
+                />
+
+                <Route 
+                    path={'/contact'}
+                    component={Contact}
+                />  
             </Switch>
         </BrowserRouter>
         
