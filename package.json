@@ -2,7 +2,7 @@
   "name": "react-my-personal-site",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://fenix15100.github.io/myPersonalSite/",
+  "homepage": "https://fenix15100.github.io/react-my-personal-site/",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.4.0",

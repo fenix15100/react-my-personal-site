@@ -13,33 +13,33 @@ const Router = () => {
             <Switch>
                 <Route 
                     exact={true}
-                    path={['/myPersonalSite/','/']}
+                    path={['/react-my-personal-site/','/']}
                     component={Landing}
                 />
                 <Route 
                     exact={true}
-                    path='/myPersonalSite/projects'
+                    path='/react-my-personal-site/projects'
                     component={Projects}
                 />
 
                 <Route 
                 exact={true}
-                path='/myPersonalSite/projects'
+                path='/react-my-personal-site/projects'
                 component={Projects}
             />
             <Route 
                 exact={true}
-                path='/myPersonalSite/about-me'
+                path='/react-my-personal-site/about-me'
                 component={AboutMe}
             />
             <Route 
                 exact={true}
-                path='/myPersonalSite/contact'
+                path='/react-my-personal-site/contact'
                 component={Contact}
             />
             <Route 
                 exact={true}
-                path={'/myPersonalSite/resume'}
+                path={'/react-my-personal-site/resume'}
                 component={Resume}
             />  
             </Switch>
