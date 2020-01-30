@@ -9,7 +9,7 @@ import Resume from './Resume';
 const Router = () => {
 
     return (
-        <BrowserRouter>
+        <BrowserRouter basename="/react-my-personal-site/">
             <Switch>
                 <Route 
                     exact={true}
@@ -17,20 +17,20 @@ const Router = () => {
                     component={Landing}
                 />
                 <Route 
-                    path={'/react-my-personal-site/projects'}
+                    path={'/projects'}
                     component={Projects}
                 />
 
             <Route 
-                path={'/react-my-personal-site/about-me'}
+                path={'/about-me'}
                 component={AboutMe}
             />
             <Route 
-                path={'/react-my-personal-site/contact'}
+                path={'/contact'}
                 component={Contact}
             />
             <Route 
-                path={'/react-my-personal-site/resume'}
+                path={'/resume'}
                 component={Resume}
             />  
             </Switch>
