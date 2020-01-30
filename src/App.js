@@ -10,7 +10,9 @@ import './App.css';
 
 import Router from './components/Router'
 
-
+//https://create-react-app.dev/docs/deployment/
+//https://github.com/rafrex/spa-github-pages
+//For fix gh pages with client router side
 
 function App() {
   return (
