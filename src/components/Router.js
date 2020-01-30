@@ -17,28 +17,19 @@ const Router = () => {
                     component={Landing}
                 />
                 <Route 
-                    exact={true}
                     path='/react-my-personal-site/projects'
                     component={Projects}
                 />
 
-                <Route 
-                exact={true}
-                path='/react-my-personal-site/projects'
-                component={Projects}
-            />
             <Route 
-                exact={true}
                 path='/react-my-personal-site/about-me'
                 component={AboutMe}
             />
             <Route 
-                exact={true}
                 path='/react-my-personal-site/contact'
                 component={Contact}
             />
             <Route 
-                exact={true}
                 path={'/react-my-personal-site/resume'}
                 component={Resume}
             />  

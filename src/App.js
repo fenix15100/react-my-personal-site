@@ -15,7 +15,7 @@ function App() {
   return (
     <>
     <Navbar className="header-bg" variant="light"  expand="lg">
-      <Navbar.Brand href="/myPersonalSite/">MyPersonalSite</Navbar.Brand>
+      <Navbar.Brand href="/react-my-personal-site/">MyPersonalSite</Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="mr-auto">
