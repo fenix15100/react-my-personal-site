@@ -21,13 +21,7 @@ const Landing = () => {
                         <h1>Francisco José Camacho Maya</h1>    
                         <h1>Full Stack Developer</h1>
                         <h1>reCoding minds</h1>
-                        
-                        
                         <hr/>
-                        <div className="skills">
-                            
-                        </div>
-                        
                         <div className="social-links">
                             <a href="https://www.linkedin.com/in/franciscojosecamacho/" target="_blank" rel="noopener noreferrer">
                                 <i className="fa fa-linkedin-square" aria-hidden="true"></i>
@@ -40,8 +34,7 @@ const Landing = () => {
                             </a>
                         </div>
                     </div>
-                </Col>
-                    
+                </Col>           
             </Row>    
     );
 }
