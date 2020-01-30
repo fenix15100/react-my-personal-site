@@ -1,3 +1,6 @@
+[![Build Status](https://travis-ci.com/fenix15100/react-my-personal-site.svg?branch=master)](https://travis-ci.com/fenix15100/react-my-personal-site)
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
