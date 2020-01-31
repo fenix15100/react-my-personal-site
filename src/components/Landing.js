@@ -17,10 +17,11 @@ const Landing = () => {
                     />
                 </Col>
                 <Col sm={12}>
+                    <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
                      <div className="banner-text">
                         <h1>Francisco José Camacho Maya</h1>    
                         <h1>Full Stack Developer</h1>
-                        <h1>reCoding minds</h1>
+                        <h1>"reCoding minds"</h1>
                         <hr/>
                         <div className="social-links">
                             <a href="https://www.linkedin.com/in/franciscojosecamacho/" target="_blank" rel="noopener noreferrer">
@@ -34,6 +35,7 @@ const Landing = () => {
                             </a>
                         </div>
                     </div>
+                    <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
                 </Col>           
             </Row>    
     );
