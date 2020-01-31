@@ -9,7 +9,7 @@ const Contact = () => {
         <div className="contact-body">
             <Row className="contact-grid">
                 <Col sm={12} lg={6}>
-                <h2>Francisco José Camacho Maya</h2>
+                    <h2>Francisco José Camacho Maya</h2>
                     <img
                     src="https://cdn2.iconfinder.com/data/icons/avatar-2/512/Fred_man-512.png"
                     alt="avatar"

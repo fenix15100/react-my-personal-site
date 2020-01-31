@@ -1,13 +1,5 @@
 
 .landing-grid{
-  /*
-    background-color: white;
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    overflow: scroll visible;
-    justify-content: center;*/
-
 
   display: flex;
   align-items: center;

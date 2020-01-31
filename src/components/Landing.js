@@ -24,7 +24,7 @@ const Landing = () => {
                             <div className="card__content">
                             <h4 className="card__title">Francisco José </h4>
                             <h4>Camacho Maya</h4>
-                            <p>{`{Another Full stack developer}`}</p>
+                            <p>{`{Another Full Stack Developer}`}</p>
                             </div>
                         </div>
                         <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
