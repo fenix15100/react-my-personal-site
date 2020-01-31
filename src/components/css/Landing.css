@@ -100,17 +100,17 @@
 @media only screen and (max-width: 1366px) {
 
     .banner-text h1 {
-        font-size: 15px;
+        font-size: 25px;
       }
 
       .social-links i {
         color: white;
-        font-size: 3em;
+        font-size: 3.5em;
         padding: 8px;
       }
 
       .avatar-img{
-        height: 250px;
+        height: 280px;
         padding-top: 5em;
     
     }

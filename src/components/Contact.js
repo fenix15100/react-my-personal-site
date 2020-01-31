@@ -1,7 +1,8 @@
 import React from 'react';
-import './css/Contact.css'
+import './css/Contact.css';
 import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col'
+import Col from 'react-bootstrap/Col';
+import ListGroup from 'react-bootstrap/ListGroup';
 
 const Contact = () => {
     return (
@@ -26,7 +27,20 @@ const Contact = () => {
                 </Col>
 
                 <Col sm={12} lg={6}>
-                   
+                    <ListGroup>
+                        <ListGroup.Item  style={{fontSize: '30px', fontFamily: 'Anton'}}>
+                            <i className="fa fa-envelope-open" aria-hidden="true"/>
+                            <span>&nbsp;francisco.camacho15@gmail.com</span>
+                        </ListGroup.Item>
+                        <ListGroup.Item style={{fontSize: '30px', fontFamily: 'Anton'}}>
+                            <i className="fa fa-telegram" aria-hidden="true"/>
+                            <span>&nbsp;@fenix15100</span>
+                        </ListGroup.Item>
+                        <ListGroup.Item  style={{fontSize: '30px', fontFamily: 'Anton'}}>
+                        <i className="fa fa-twitter" aria-hidden="true"/>
+                        <span>&nbsp;@fenix15100</span>
+                        </ListGroup.Item>
+                    </ListGroup>  
                 </Col>
 
             </Row>
