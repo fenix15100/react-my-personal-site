@@ -24,10 +24,13 @@ const Contact = () => {
                     Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
                     Lorem Ipsum has been the industry's 
                 </p>
+                
                 </Col>
-
-                <Col sm={12} lg={6}>
-                    <ListGroup>
+               
+                <Col sm={12} lg={6}> 
+                    
+                    <ListGroup className="lista">
+                        <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
                         <ListGroup.Item  style={{fontSize: '30px', fontFamily: 'Anton'}}>
                             <i className="fa fa-envelope-open" aria-hidden="true"/>
                             <span>&nbsp;francisco.camacho15@gmail.com</span>
@@ -40,9 +43,11 @@ const Contact = () => {
                         <i className="fa fa-twitter" aria-hidden="true"/>
                         <span>&nbsp;@fenix15100</span>
                         </ListGroup.Item>
-                    </ListGroup>  
+                        <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
+                    </ListGroup> 
+                    
+                      
                 </Col>
-
             </Row>
 
         </div>
