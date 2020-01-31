@@ -24,6 +24,7 @@
     width: auto;
     border-radius: 10px;
     margin: auto;
+    display: inline-block
 
     
   }
@@ -62,9 +63,7 @@
       }
 
       .social-links i {
-        color: white;
         font-size: 3em;
-        padding: 8px;
       }
 
       .avatar-img{
@@ -83,9 +82,8 @@
       }
 
       .social-links i {
-        color: white;
         font-size: 4em;
-        padding: 8px;
+        
       }
 
       .avatar-img{
@@ -103,9 +101,8 @@
       }
 
       .social-links i {
-        color: white;
         font-size: 3.5em;
-        padding: 8px;
+        
       }
 
       .avatar-img{
