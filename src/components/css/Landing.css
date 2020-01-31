@@ -3,7 +3,7 @@
     background-color: white;
     height: 100%;
     width: 100%;
-    position: fixed;
+    position: absolute;
     overflow: scroll visible;
     justify-content: center;
     
