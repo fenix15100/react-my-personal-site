@@ -1,9 +1,4 @@
 
-* {
-  box-sizing: border-box;
-  line-height: 1.5;
-  font-family: 'Open Sans', sans-serif;
-}
 .landing-grid{
     background-color: white;
     height: 100%;
@@ -15,9 +10,6 @@
    
 }
 
-img {
-  width: 80%;
-}
 .card {
   position: relative;
   background: #333;
@@ -41,6 +33,7 @@ img {
 .card__image {
   opacity: 0;
   animation: ImageFadeIn .8s 1.4s forwards;
+  width: 80%;
 }
 .card__title {
   color: white;

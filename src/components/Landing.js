@@ -21,7 +21,8 @@ const Landing = () => {
                             </svg>
     
                             <div className="card__content">
-                            <h4 className="card__title">Francisco José Camacho Maya</h4>
+                            <h4 className="card__title">Francisco José </h4>
+                            <h4>Camacho Maya</h4>
                             <p>{`{Another Full stack developer}`}</p>
                             </div>
                         </div>
