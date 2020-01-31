@@ -1,11 +1,19 @@
 
 .landing-grid{
+  /*
     background-color: white;
     height: 100%;
     width: 100%;
     position: absolute;
     overflow: scroll visible;
-    justify-content: center;
+    justify-content: center;*/
+
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: #444;
     
    
 }
@@ -15,7 +23,6 @@
   background: #333;
   width: 400px;
   height: 70vh;
-  border-radius: 6px;
   padding: 2rem;
   color: #aaa;
   box-shadow: 0 0.25rem 0.25rem rgba(0, 0, 0, 0.2), 0 0 1rem rgba(0, 0, 0, 0.2);
@@ -34,6 +41,8 @@
   opacity: 0;
   animation: ImageFadeIn .8s 1.4s forwards;
   width: 80%;
+  border-radius: 6px;
+  z-index: 0;
 }
 .card__title {
   color: white;
@@ -45,6 +54,7 @@
   margin-top: -1rem;
   opacity: 0;
   animation: ContentFadeIn .8s 1.6s forwards;
+  z-index: 1;
 }
 .card__svg {
   position: absolute;

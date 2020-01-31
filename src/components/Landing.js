@@ -2,13 +2,14 @@ import React from 'react';
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 
-import avatar from './assets/avatar2.jpg'
+import avatar from './assets/avatar3.jpeg'
 
 import './css/Landing.css'
 const Landing = () => {
     return (
             <Row className="landing-grid text-center">
                 <Col sm={12}>
+                        <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
                         <div className="card">
                             <div className="card__image-container">
                                 <img className="card__image" src={avatar} alt="me"/>
@@ -26,6 +27,7 @@ const Landing = () => {
                             <p>{`{Another Full stack developer}`}</p>
                             </div>
                         </div>
+                        <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
                 </Col>           
             </Row>    
     );
