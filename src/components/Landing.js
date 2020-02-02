@@ -8,16 +8,11 @@ import './css/Landing.css'
 const Landing = () => {
     return (
             <Row className="landing-grid">
-                <Col sm={12} lg={6}>
+                <Col sm={12}>
                         <section className="left-side">
-                        
+                            <h2>Hi, my name is Francisco</h2>
                         </section>
-                </Col>
-                <Col sm={12} lg={6}>
-                    <section className="rigth-side">
-                    
-                    </section>
-                </Col>               
+                </Col>       
             </Row>    
     );
 }

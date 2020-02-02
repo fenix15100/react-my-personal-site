@@ -1,7 +1,7 @@
 
 .landing-grid{
   display: flex;
-  align-items: top;
+  align-items: center;
   justify-content: top;
   height: 100vh;
   background: #444;
@@ -12,20 +12,16 @@
   background-attachment: fixed;
   opacity: .7;
  
- 
     
 }
-.landing-grid:only-child() {
-  top: 8%;
-  position: relative;
+.landing-grid .left-side {
+  margin-bottom: 500px;
 }
 
 .landing-grid hr {
   border-top: 3px solid #833fb2;
   width: '100%';
 }
-
-
 
 
 .left-side h2{

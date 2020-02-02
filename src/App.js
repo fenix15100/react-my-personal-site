@@ -24,7 +24,7 @@ function App() {
       <Navbar.Brand href="/react-my-personal-site/">{isMobile?'Fran':'Fran Camacho Maya'}</Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav" >
-        <Nav className="justify-content-end" >
+        <Nav>
           <Nav.Link href="/react-my-personal-site/resume">Resume</Nav.Link>
           <Nav.Link href="/react-my-personal-site/about-me">AboutMe</Nav.Link>
           <Nav.Link href="/react-my-personal-site/projects">Projects</Nav.Link>

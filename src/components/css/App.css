@@ -5,12 +5,22 @@
         
 }
 
-.navbar-light .navbar-nav .nav-link {
+/*Animate links nav*/
+a[class*="nav-link"],a[class*="navbar-brand"]{
     color: white;
+    text-decoration: none;
+    background-image: linear-gradient(#833fb2, #833fb2);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s;
+
+
 }
-.navbar-light .navbar-brand {
-    color: white;
+a[class*="nav-link"]:hover,a[class*="nav-link"]:focus,a[class*="navbar-brand"]:hover,a[class*="navbar-brand"]:focus{
+    background-size: 100% 2px;
 }
+
 
 
 
