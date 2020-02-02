@@ -12,42 +12,7 @@
     color: white;
 }
 
-#basic-navbar-nav {
-    padding-left: 60%!important;
-    text-align: right!important;
 
-}
 
-/*mobile*/
-@media only screen and (max-width: 360px) {
-    #basic-navbar-nav {
-        padding-left: 0%!important;
-        text-align: unset!important;
-    }
 
-    .navbar-brand{
-        position: relative;
-        left: -22%;
-    }
 
-    .navbar-nav {
-        text-align: right;
-    }
-    
-  }
-  
-  @media only screen and (max-width: 455px) {
-    #basic-navbar-nav {
-        padding-left: 0%!important;
-        text-align: unset!important;
-    }
-
-    .navbar-brand{
-        position: relative;
-        left: -65%;
-    }
-  
-    .navbar-nav {
-        text-align: right;
-    }
-    }

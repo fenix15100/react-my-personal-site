@@ -1,14 +1,22 @@
 
 .landing-grid{
-
   display: flex;
   align-items: top;
   justify-content: top;
   height: 100vh;
   background: #444;
+  background-image: url('./../assets/bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  opacity: .7;
+ 
+ 
     
 }
-.landing-grid *{
+.landing-grid:only-child() {
+  top: 8%;
   position: relative;
 }
 
@@ -17,9 +25,9 @@
   width: '100%';
 }
 
-.landing-grid .left-side {
-  top: 8%;
-}
+
+
+
 .left-side h2{
   font-family: 'Anton', sans-serif;
   color: white;
@@ -27,9 +35,11 @@
   font-style: italic;
 }
 
-.rigth-side{
+.left-side p{
   font-family: 'Oxygen', sans-serif;
   font-weight: bold;
-  
+
 }
+
+
 

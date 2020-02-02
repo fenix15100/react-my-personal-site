@@ -20,9 +20,8 @@ function App() {
   
   return (
     <>
-    <Navbar className="header-bg justify-content-end" variant="dark"  expand="lg" >
-      
-<Navbar.Brand href="/react-my-personal-site/">{isMobile?'Fran':'Fran Camacho Maya'}</Navbar.Brand>
+    <Navbar className="header-bg" variant="dark"  expand="lg" >
+      <Navbar.Brand href="/react-my-personal-site/">{isMobile?'Fran':'Fran Camacho Maya'}</Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav" >
         <Nav className="justify-content-end" >
