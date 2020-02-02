@@ -3,11 +3,8 @@ import React from 'react';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import Container from 'react-bootstrap/Container'
-
-
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './components/css/App.css';
-
 import Router from './components/Router'
 
 import {isMobile} from 'react-device-detect';
@@ -46,12 +43,4 @@ function App() {
 
   );
 }
-
-
-
-
-
-
-
-
 export default App;

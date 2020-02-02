@@ -8,7 +8,18 @@
   background: #444;
     
 }
+.landing-grid *{
+  position: relative;
+}
 
+.landing-grid hr {
+  border-top: 3px solid #833fb2;
+  width: '100%';
+}
+
+.landing-grid .left-side {
+  top: 8%;
+}
 .left-side h2{
   font-family: 'Anton', sans-serif;
   color: white;
@@ -20,17 +31,5 @@
   font-family: 'Oxygen', sans-serif;
   font-weight: bold;
   
-}
-.landing-grid *{
-  position: relative;
-}
-
-.landing-grid .left-side {
-  top: 8%;
-}
-
-.landing-grid hr {
-  border-top: 3px solid #833fb2;
-  width: '100%';
 }
 
