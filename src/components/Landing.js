@@ -1,17 +1,31 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
-
-//import avatar from './assets/avatar3.jpeg'
-
+import Spinner from 'react-bootstrap/Spinner'
 import './css/Landing.css'
+
+
 const Landing = () => {
+    const [loading,isLoading] = useState(true);
+
+    useEffect(()=>{
+        setTimeout(() => {
+            isLoading(false)
+            
+        }, 2000);
+
+    },[])
+    
+
     return (
             <Row className="landing-grid">
                 <Col sm={12}>
-                        <section className="left-side">
-                            <h2>Hi, my name is Francisco</h2>
-                        </section>
+                    <section className="text-block">
+                        {loading
+                        ?<Spinner className="spinload" animation="border" variant="primary" />
+                        :<h2>Hi, my name is Francisco</h2>
+                        }    
+                    </section>       
                 </Col>       
             </Row>    
     );

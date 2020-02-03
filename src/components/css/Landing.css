@@ -2,7 +2,7 @@
 .landing-grid{
   display: flex;
   align-items: center;
-  justify-content: top;
+  justify-content: center;
   height: 100vh;
   background: #444;
   background-image: url('./../assets/bg.jpg');
@@ -14,27 +14,34 @@
  
     
 }
-.landing-grid .left-side {
-  margin-bottom: 500px;
-}
-
+/* hr lila
 .landing-grid hr {
   border-top: 3px solid #833fb2;
   width: '100%';
-}
+}*/
 
 
-.left-side h2{
-  font-family: 'Anton', sans-serif;
-  color: white;
+.text-block {
   text-align: center;
+  color: white;
+  margin-bottom: 350px;
+ 
+}
+.text-block h2{
+  font-family: 'Anton', sans-serif;
   font-style: italic;
 }
 
-.left-side p{
+.text-block p{
   font-family: 'Oxygen', sans-serif;
   font-weight: bold;
 
+}
+
+.spinload{
+  text-align: center;
+  
+  
 }
 
 
