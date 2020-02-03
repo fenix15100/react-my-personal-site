@@ -22,7 +22,7 @@ const Landing = () => {
                 <Col sm={12}>
                     <section className="text-block">
                         {loading
-                        ?<Spinner className="spinload" animation="border" variant="primary" />
+                        ?<Spinner className="spinload" animation="grow" variant="info"/>
                         :<h2>Hi, my name is Francisco</h2>
                         }    
                     </section>       
