@@ -12,7 +12,7 @@ const Landing = () => {
         setTimeout(() => {
             isLoading(false)
             
-        }, 2000);
+        }, 3500);
 
     },[])
     
