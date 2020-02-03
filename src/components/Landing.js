@@ -10,8 +10,7 @@ const Landing = () => {
 
     useEffect(()=>{
         setTimeout(() => {
-            isLoading(false)
-            
+            isLoading(false)  
         }, 3500);
 
     },[])

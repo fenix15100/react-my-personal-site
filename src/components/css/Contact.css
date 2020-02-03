@@ -34,6 +34,15 @@
   margin: auto;
 }
 
+.list-group-item a{
+  color: inherit;
+  text-decoration: none;
+}
+
+.list-group-item:hover{
+  color: blueviolet;
+}
+
 
 
 @media only screen and (max-width: 360px) {
