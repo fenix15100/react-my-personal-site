@@ -6,11 +6,12 @@ const Quotes = () => {
       <Carousel 
         controls={false} 
         indicators={false} 
-        interval={2500}
+        interval={3000}
         >
         
         <Carousel.Item>
-          <h2>Hi, I'am Francisco A Full Stack Developer</h2>
+          <h2>Hi, I'am Francisco</h2>
+          <p>A Full Stack Developer</p>
         </Carousel.Item>
         <Carousel.Item>
           <h2>LORE</h2>
