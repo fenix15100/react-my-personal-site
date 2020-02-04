@@ -4,11 +4,9 @@ import Carousel from 'react-bootstrap/Carousel'
 const Quotes = () => {
     return (
       <Carousel 
-        controls={true} 
+        controls={false} 
         indicators={false} 
-        interval={3500}
-        prevIcon={<span><i className="fa fa-angle-left" aria-hidden="true"></i></span>}
-        nextIcon={<span><i className="fa fa-angle-right" aria-hidden="true"></i></span>}
+        interval={2500}
         >
         
         <Carousel.Item>
