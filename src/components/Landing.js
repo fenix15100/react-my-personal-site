@@ -20,13 +20,13 @@ const Landing = () => {
     return (
             <Row className="landing-grid">
                 <Col sm={12}>
-                    <section className="text-block">
+                    <div className="text-block">
                         {loading
                         ?<Spinner className="spinload" animation="grow" variant="info"/>
                         :
                          <Quotes/>
                         }    
-                    </section>       
+                    </div>       
                 </Col>       
             </Row>    
     );

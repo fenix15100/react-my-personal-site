@@ -1,18 +1,14 @@
 
 .landing-grid{
-  display: flex;
-  align-items: center;
-  justify-content: center;
   height: 100vh;
   background: #444;
-  background-image: url('./../assets/bg.jpg');
+  background-image:url('./../assets/bg.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
-  opacity: .7;
- 
-    
+  opacity: .6;
+  position: relative;    
 }
 /* hr lila
 .landing-grid hr {
@@ -24,7 +20,12 @@
 .text-block {
   text-align: center;
   color: white;
-  margin-bottom: 350px;
+  display: block;
+  position: absolute;
+  top:30%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
  
 }
 .text-block h2{
@@ -37,6 +38,8 @@
   font-weight: bold;
 
 }
+
+
 
 
 
