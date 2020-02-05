@@ -32,7 +32,7 @@ const Project = ({project,setModalShow,setModalContent}) => {
                 <div className="card-actions">
                     <Button size="sm" variant="outline-info">
                         <a href={project.github} target="_blank" rel="noopener noreferrer">
-                            Git hub
+                            Github
                         </a> 
                     </Button>
                     <Button 
