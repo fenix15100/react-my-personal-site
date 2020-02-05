@@ -1,7 +1,17 @@
-.projects-grid{
+ .projects-grid{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+  }
+
+  .projects-tab-pane{
+    overflow: auto;
+  }
+
+
+  .nav-tabs a[class*="nav-link"]{
+    color:#8c38c9;
+    text-align: center;
   }
 
 

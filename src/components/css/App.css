@@ -6,7 +6,7 @@
 }
 
 /*Animate links nav*/
-a[class*="nav-link"],a[class*="navbar-brand"]{
+.navbar-nav a[class*="nav-link"],.navbar-nav a[class*="navbar-brand"]{
     color: white;
     text-decoration: none;
     background-image: linear-gradient(#833fb2, #833fb2);
