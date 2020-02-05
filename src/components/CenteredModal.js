@@ -2,9 +2,11 @@ import React from 'react';
 import Modal from 'react-bootstrap/Modal';
 import Button from 'react-bootstrap/Button';
 
-const CenteredModal = ({modalContent,onHide}) => {
+
+const CenteredModal = ({modalContent,onHide,show}) => {
     return (
         <Modal
+            show={show}
             size="lg"
             aria-labelledby="contained-modal-title-vcenter"
             centered

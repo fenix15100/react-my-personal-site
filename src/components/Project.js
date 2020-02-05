@@ -2,11 +2,14 @@ import React from 'react';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import Badge from 'react-bootstrap/Badge';
+import './css/Projects.css'
+//TODO crear estilos css propios aqui y en el modal
 
 const Project = ({project,setModalShow,setModalContent}) => {
 
     const handleClick = ()=>{
-        setModalContent({...project});
+        console.log(project)
+        setModalContent(project);
         setModalShow(true);
     }
 
@@ -17,8 +20,8 @@ const Project = ({project,setModalShow,setModalContent}) => {
             <Card.Body>
                 <Card.Title>
                     {project.title}<br/> 
-                    {project.badge.map(badge =>(
-                        <Badge pill variant={badge.color}>{badge.title}</Badge>
+                    {project.badge.map((badge,index) =>(
+                        <Badge key={index} pill variant={badge.color}>{badge.title}</Badge>
                     ))}
                 </Card.Title>
                 <Card.Text>
@@ -28,7 +31,11 @@ const Project = ({project,setModalShow,setModalContent}) => {
                     }
                 </Card.Text>
                 <div className="card-actions">
-                    <Button size="sm" variant="outline-info">Github</Button>
+                    <Button size="sm" variant="outline-info">
+                        <a href={project.github} target="_blank" rel="noopener noreferrer">
+                            Git hub
+                        </a> 
+                    </Button>
                     <Button 
                         onClick={handleClick} 
                         size="sm" 
@@ -36,7 +43,11 @@ const Project = ({project,setModalShow,setModalContent}) => {
                     >
                         More Info
                     </Button>
-                    <Button size="sm" variant="outline-info">Live Demo</Button>
+                    <Button size="sm" variant="outline-info">
+                        <a href={project.liveDemo} target="_blank" rel="noopener noreferrer">
+                            Live Demo
+                        </a>   
+                    </Button>
                 </div>
             </Card.Body>
         </Card>
