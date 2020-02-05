@@ -1,35 +1,31 @@
-.projects-tab-pane{
+.projects-grid{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.projects-grid .card{
+  width: 100%;
+  margin-top: 15px;
+}
+
+.card-actions{
+  display: flex;
   justify-content: space-around;
 }
 
 
-.card{
-  display: inline-block;
-  align-content: center;
-  margin:5px ;
-  width: 20rem;
-}
-.card-actions{
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-}
-
 
 @media only screen and (max-width: 600px) {
-  .projects-tab-pane{
+  .projects-grid{
       flex-direction: column;
   }
-  .card{
-    width: 10rem;
 
+  .projects-grid .card{
+    width: 50%;
+    align-self: center;
   }
-  .card .btn{
-    width: 20%;
-    height: 20%;
-  }
+
 
 }
