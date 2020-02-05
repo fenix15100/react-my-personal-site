@@ -2,7 +2,8 @@ import React, { useState, useEffect } from 'react';
 import { Row,Col } from 'react-bootstrap';
 import Project from './Project';
 import CenteredModal from './CenteredModal';
-import './css/Projects.css'
+import './css/Projects.css';
+import dbData from './assets/db.json';
 
 const Projects = () => {
 
@@ -13,125 +14,8 @@ const Projects = () => {
     
     
     useEffect(()=>{
-        //TODO quitar la fakeDB y hacer un custom hook
-        const fakedb =[
-            {
-                title: "LORE",
-                img: "https://www.ismedioambiente.com/wp-content/uploads/2019/04/Convenio-Europeo-del-Paisaje.jpg",
-                badge: [
-                    {
-                        title: "react",
-                        color: "danger"
-                    }
-                ],
-                description: "loreloreloreloreloresdsdfddsfsdddddddddd",
-                fullDescription: "mala raza",
-                github: "https://github.com",
-                liveDemo: "https://github.com"
-
-
-            },
-            {
-                title: "LORE",
-                img: "https://www.ismedioambiente.com/wp-content/uploads/2019/04/Convenio-Europeo-del-Paisaje.jpg",
-                badge: [
-                    {
-                        title: "python",
-                        color: "primary"
-                    }
-                ],
-                description: "loreloreloreloreloresdsdfddsfsfdsfdfdsfs",
-                fullDescription: "loreloreloreloreloresdsdfddsfsfdsfdfdsfsloreloreloreloreloresdsdfddsfsfdsfdfdsfs",
-                github: "https://github.com",
-                liveDemo: "https://github.com"
-            },
-            {
-                title: "LORE",
-                img: "https://www.ismedioambiente.com/wp-content/uploads/2019/04/Convenio-Europeo-del-Paisaje.jpg",
-                badge: [
-                    {
-                        title: "python",
-                        color: "primary"
-                    }
-                ],
-                description: "loreloreloreloreloresdsdfddsfsfdsfdfdsfs",
-                fullDescription: "loreloreloreloreloresdsdfddsfsfdsfdfdsfsloreloreloreloreloresdsdfddsfsfdsfdfdsfs",
-                github: "https://github.com",
-                liveDemo: "https://github.com"
-            },
-            {
-                title: "LORE",
-                img: "https://www.ismedioambiente.com/wp-content/uploads/2019/04/Convenio-Europeo-del-Paisaje.jpg",
-                badge: [
-                    {
-                        title: "python",
-                        color: "primary"
-                    }
-                ],
-                description: "loreloreloreloreloresdsdfddsfsfdsfdfdsfs",
-                fullDescription: "loreloreloreloreloresdsdfddsfsfdsfdfdsfsloreloreloreloreloresdsdfddsfsfdsfdfdsfs",
-                github: "https://github.com",
-                liveDemo: "https://github.com"
-            },
-            {
-                title: "LORE",
-                img: "https://www.ismedioambiente.com/wp-content/uploads/2019/04/Convenio-Europeo-del-Paisaje.jpg",
-                badge: [
-                    {
-                        title: "python",
-                        color: "primary"
-                    }
-                ],
-                description: "loreloreloreloreloresdsdfddsfsfdsfdfdsfs",
-                fullDescription: "loreloreloreloreloresdsdfddsfsfdsfdfdsfsloreloreloreloreloresdsdfddsfsfdsfdfdsfs",
-                github: "https://github.com",
-                liveDemo: "https://github.com"
-            },
-            {
-                title: "LORE",
-                img: "https://www.ismedioambiente.com/wp-content/uploads/2019/04/Convenio-Europeo-del-Paisaje.jpg",
-                badge: [
-                    {
-                        title: "python",
-                        color: "warning"
-                    }
-                ],
-                description: "loreloreloreloreloresdsdfddsfsfdsfdfdsfs",
-                fullDescription: "loreloreloreloreloresdsdfddsfsfdsfdfdsfsloreloreloreloreloresdsdfddsfsfdsfdfdsfs",
-                github: "https://github.com",
-                liveDemo: "https://github.com"
-            },
-            {
-                title: "LORE",
-                img: "https://www.ismedioambiente.com/wp-content/uploads/2019/04/Convenio-Europeo-del-Paisaje.jpg",
-                badge: [
-                    {
-                        title: "php",
-                        color: "success"
-                    }
-                ],
-                description: "loreloreloreloreloresdsdfddsfsfdsfdfdsfs",
-                fullDescription: "loreloreloreloreloresdsdfddsfsfdsfdfdsfsloreloreloreloreloresdsdfddsfsfdsfdfdsfs",
-                github: "https://github.com",
-                liveDemo: "https://github.com"
-            },
-            {
-                title: "LORE",
-                img: "https://www.ismedioambiente.com/wp-content/uploads/2019/04/Convenio-Europeo-del-Paisaje.jpg",
-                badge: [
-                    {
-                        title: "python",
-                        color: "warning"
-                    }
-                ],
-                description: "loreloreloreloreloresdsdfddsfsfdsfdfdsfs",
-                fullDescription: "loreloreloreloreloresdsdfddsfsfdsfdfdsfsloreloreloreloreloresdsdfddsfsfdsfdfdsfs",
-                github: "https://github.com",
-                liveDemo: "https://github.com"
-            }
-
-        ]
-        setProjects(fakedb)
+        const data = dbData;
+        setProjects(data)
 
     },[])
 
