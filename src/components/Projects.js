@@ -22,9 +22,25 @@ const Projects = () => {
                     {
                         title: "react",
                         color: "danger"
+                    },
+                    {
+                        title: "react",
+                        color: "danger"
+                    },
+                    {
+                        title: "react",
+                        color: "danger"
+                    },
+                    {
+                        title: "react",
+                        color: "danger"
+                    },
+                    {
+                        title: "react",
+                        color: "danger"
                     }
                 ],
-                description: "loreloreloreloreloresdsdfddsfsfdsfdfdsfs",
+                description: "loreloreloreloreloresdsdfddsfsfdsfdfdsfsdsdsdsdsdsdsdsdsdsdsdsdssdsdsdsdsssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss",
                 fullDescription: "mala raza",
                 github: "https://github.com",
                 liveDemo: "https://github.com"
