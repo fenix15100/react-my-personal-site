@@ -1,23 +1,35 @@
- .projects-grid{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-  }
+.projects-tab-pane{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
 
+
+.card{
+  display: inline-block;
+  align-content: center;
+  margin:5px ;
+  width: 20rem;
+}
+.card-actions{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+
+@media only screen and (max-width: 600px) {
   .projects-tab-pane{
-    overflow: auto;
+      flex-direction: column;
+  }
+  .card{
+    width: 10rem;
+
+  }
+  .card .btn{
+    width: 20%;
+    height: 20%;
   }
 
-
-  .nav-tabs a[class*="nav-link"]{
-    color:#8c38c9;
-    text-align: center;
-  }
-
-
-  @media only screen and (max-width: 600px) {
-    .projects-grid{
-        flex-direction: column;
-
-    }
-  }
+}
