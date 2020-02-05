@@ -8,7 +8,6 @@ import './css/Projects.css'
 const Project = ({project,setModalShow,setModalContent}) => {
 
     const handleClick = ()=>{
-        console.log(project)
         setModalContent(project);
         setModalShow(true);
     }
