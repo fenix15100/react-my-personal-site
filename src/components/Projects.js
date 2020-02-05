@@ -24,7 +24,7 @@ const Projects = () => {
                         color: "danger"
                     }
                 ],
-                description: "loreloreloreloreloresdsdfddsfsfdsfdfdsfsdsdsdsdsdsdsdsdsdsdsdsdssdsdsdsd",
+                description: "loreloreloreloreloresdsdfddsfsdddddddddd",
                 fullDescription: "mala raza",
                 github: "https://github.com",
                 liveDemo: "https://github.com"
@@ -80,6 +80,34 @@ const Projects = () => {
                     {
                         title: "python",
                         color: "primary"
+                    }
+                ],
+                description: "loreloreloreloreloresdsdfddsfsfdsfdfdsfs",
+                fullDescription: "loreloreloreloreloresdsdfddsfsfdsfdfdsfsloreloreloreloreloresdsdfddsfsfdsfdfdsfs",
+                github: "https://github.com",
+                liveDemo: "https://github.com"
+            },
+            {
+                title: "LORE",
+                img: "https://www.ismedioambiente.com/wp-content/uploads/2019/04/Convenio-Europeo-del-Paisaje.jpg",
+                badge: [
+                    {
+                        title: "python",
+                        color: "warning"
+                    }
+                ],
+                description: "loreloreloreloreloresdsdfddsfsfdsfdfdsfs",
+                fullDescription: "loreloreloreloreloresdsdfddsfsfdsfdfdsfsloreloreloreloreloresdsdfddsfsfdsfdfdsfs",
+                github: "https://github.com",
+                liveDemo: "https://github.com"
+            },
+            {
+                title: "LORE",
+                img: "https://www.ismedioambiente.com/wp-content/uploads/2019/04/Convenio-Europeo-del-Paisaje.jpg",
+                badge: [
+                    {
+                        title: "php",
+                        color: "success"
                     }
                 ],
                 description: "loreloreloreloreloresdsdfddsfsfdsfdfdsfs",
