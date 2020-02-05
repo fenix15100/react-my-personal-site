@@ -15,6 +15,14 @@
   justify-content: space-around;
 }
 
+.card-actions .btn{
+ color: #833fb2;
+ border-color: #833fb2;
+}
+
+.card-actions .btn:active,.card-actions .btn:hover{
+  background: #823fb280
+ }
 
 
 @media only screen and (max-width: 600px) {

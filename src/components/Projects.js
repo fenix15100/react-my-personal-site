@@ -16,7 +16,7 @@ const Projects = () => {
                     <Card.Img variant="top" src="https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg" />
                     <Card.Body>
                         <Card.Title>
-                            Card Title&nbsp; 
+                            Card Title<br/> 
                             <Badge pill variant="primary">react</Badge>
                             <Badge pill variant="warning">python</Badge>
                         </Card.Title>
