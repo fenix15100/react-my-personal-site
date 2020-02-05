@@ -20,7 +20,7 @@
  border-color: #833fb2;
 }
 
-.card-actions .btn:active,.card-actions .btn:hover{
+.card-actions .btn:active,.card-actions .btn:hover,.card-actions .btn:focus{
   background: #823fb280
  }
 
