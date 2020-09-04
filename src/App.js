@@ -11,7 +11,7 @@ import {isMobile} from 'react-device-detect';
 
 //https://create-react-app.dev/docs/deployment/
 //https://github.com/rafrex/spa-github-pages
-//For fix gh pages with client router side
+//For fix gh pages with client router sid
 
 
 function App() {
