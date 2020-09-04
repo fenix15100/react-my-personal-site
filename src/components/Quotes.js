@@ -14,8 +14,12 @@ const Quotes = () => {
           <p>A Full Stack Developer</p>
         </Carousel.Item>
         <Carousel.Item>
-          <h2>LORE</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <h2>Hi, I'am Francisco</h2>
+          <p>A Junior DevOps</p>
+        </Carousel.Item>
+        <Carousel.Item>
+          <h2>Hi, I'am Francisco again..</h2>
+          <p>A ['SysAdmin',Scripter,'Atomation Boy']</p>
         </Carousel.Item>
       </Carousel>
         

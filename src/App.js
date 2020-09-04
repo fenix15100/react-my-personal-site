@@ -26,7 +26,6 @@ function App() {
       <Navbar.Collapse id="basic-navbar-nav" >
         <Nav>
           <Nav.Link href="/react-my-personal-site/resume">Resume</Nav.Link>
-          <Nav.Link href="/react-my-personal-site/about-me">AboutMe</Nav.Link>
           <Nav.Link href="/react-my-personal-site/projects">Projects</Nav.Link>
           <Nav.Link href="/react-my-personal-site/contact">Contact</Nav.Link>  
         </Nav>
