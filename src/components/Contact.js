@@ -23,7 +23,7 @@ const Contact = () => {
                             <p>Es muy posible que  no tenga este aspecto :)</p>
                         </Figure.Caption>
                     </Figure>
-                <p style={{ width: '75%', margin: 'auto', paddingTop: '1em',textAlign: 'justify'}}>
+                <p style={{ width: '75%', margin: 'auto', paddingTop: '1em',textAlign: 'center'}}>
                     Si necesitais ponerse en contacto conmigo o estais interesados en mi código,
                     podeis hacerlo a traves de mis networks 
                 </p>
