@@ -1,12 +1,13 @@
 import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import Nav from 'react-bootstrap/Nav';
+import {isMobile} from 'react-device-detect';
 import './css/Quotes.css';
 
 const Quotes = () => {
     return (
       <Carousel 
-        controls={false} 
+        controls={isMobile?false:true} 
         indicators={false} 
         interval={4000}
         >
@@ -16,13 +17,12 @@ const Quotes = () => {
           <p>A Backend Developer (Python/PHP/Node.js &#10084;)</p>
         </Carousel.Item>
         <Carousel.Item>
-          <h2>Expert Infrastructure Devops</h2>
+          <h2>Infrastructure Devops</h2>
           <br></br>
-          <p>Vmware Developer & Ansible</p>
+          <p>Vmware SDK Developer</p>
         </Carousel.Item>
         <Carousel.Item>
-          <h2>Expert in Automation</h2>
-          <h2>& SysAdmin</h2>
+          <h2>Automation & SysAdmin</h2>
           <br></br>
           <p>Scripting [Python,Bash,Powershell]</p>
         </Carousel.Item>
