@@ -21,7 +21,7 @@ const Resume = () => {
                     <h2 style={{paddingTop: '2em'}}>Francisco José Camacho Maya</h2>
                    
                     <h4 style={{color: 'grey'}}>Backend Developer</h4>
-                    <h4 style={{color: 'grey'}}>VMware API Developer</h4>
+                    <h4 style={{color: 'grey'}}>VMware SDK Developer</h4>
                     <h4 style={{color: 'grey'}}>Infrastructure DevOps</h4>
                     <h4 style={{color: 'grey'}}>Frontend Skills</h4>
                     <h4 style={{color: 'grey'}}>Automation Scripting Skills</h4>
