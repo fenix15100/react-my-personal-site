@@ -1,9 +1,10 @@
 import React from 'react';
-import './css/Contact.css';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import ListGroup from 'react-bootstrap/ListGroup';
-import Figure from 'react-bootstrap/Figure'
+import Figure from 'react-bootstrap/Figure';
+import './css/Contact.css';
+import avatar from './assets/avatar.png';
 
 const Contact = () => {
     return (
@@ -13,7 +14,8 @@ const Contact = () => {
                     <h2>Francisco José Camacho Maya</h2>
                     <Figure>
                         <img
-                        src="https://cdn2.iconfinder.com/data/icons/avatar-2/512/Fred_man-512.png"
+                        src={avatar}
+                        //src="https://cdn2.iconfinder.com/data/icons/avatar-2/512/Fred_man-512.png"
                         alt="avatar"
                         style={{height: '250px'}}
                         />

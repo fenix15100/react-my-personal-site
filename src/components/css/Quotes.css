@@ -1,0 +1,12 @@
+.carousel-control-next-icon{
+    background-color: #fd3a69 !important;
+}
+.carousel-control-prev-icon{
+    background-color: #fd3a69 !important;
+}
+
+.carousel-item p{
+    color: #fd3a69;
+    font-weight: bold;
+    font-size: 12;
+}
