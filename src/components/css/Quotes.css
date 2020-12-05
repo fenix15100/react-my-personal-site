@@ -1,12 +1,54 @@
-.carousel-control-next-icon{
-    background-color: #fd3a69 !important;
-}
-.carousel-control-prev-icon{
-    background-color: #fd3a69 !important;
-}
 
-.carousel-item p{
+
+.caption-carousel{
+    background-color: black;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    width: 50%;
+    transform: translateX(50%);
+}
+.caption-carousel .nav-link{
+    color: #fd3a69;
+    font-weight: bold;
+    font-size: 12;
+
+}
+.caption-carousel p{
     color: #fd3a69;
     font-weight: bold;
     font-size: 12;
 }
+
+@media only screen and (max-width: 600px) {
+    .caption-carousel{
+        background-color: black;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        border-radius: 10px;
+        margin-left: 5px;
+        margin-right: 5px;
+        width: auto;
+        transform: none;
+        
+        
+        
+    }
+
+    .caption-carousel .nav-link{
+        color: #fd3a69;
+        font-weight: bold;
+        font-size: 12;
+    
+    }
+    .caption-carousel p{
+        color: #fd3a69;
+        font-weight: bold;
+        font-size: 12;
+    }
+    
+  
+  
+  }

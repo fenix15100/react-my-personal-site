@@ -1,3 +1,15 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  overflow: scroll;
+  overflow-x: hidden;
+}
+::-webkit-scrollbar {
+  width: 0px;  /* Remove scrollbar space */
+  background: transparent;  /* Optional: just make scrollbar invisible */
+}
+
 
 .landing-grid{
   height: 100vh;
@@ -8,7 +20,8 @@
   background-position: center center;
   background-attachment: fixed;
   opacity: .7;
-  position: relative;    
+  position: relative;
+  overscroll-behavior: contain;
 }
 /* hr lila
 .landing-grid hr {
