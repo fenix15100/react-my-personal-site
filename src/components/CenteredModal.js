@@ -19,7 +19,8 @@ const CenteredModal = ({modalContent,onHide,show}) => {
                 </Modal.Title>
             </Modal.Header>
             <Modal.Body>
-                <p>{modalContent.fullDescription}</p>
+                <img src={modalContent.img} alt="Covid19 Tracker" style={{width:'80%',height:'100%',transform: 'translateX(15%)'}}/>
+                <p dangerouslySetInnerHTML={{__html:modalContent.fullDescription}}/>
             </Modal.Body>
             <Modal.Footer>
                 <Button onClick={onHide}>Close</Button>

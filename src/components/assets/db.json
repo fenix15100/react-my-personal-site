@@ -1,17 +1,17 @@
 [
     {
-        "title": "LORE",
-        "img": "https://www.ismedioambiente.com/wp-content/uploads/2019/04/Convenio-Europeo-del-Paisaje.jpg",
+        "title": "react-covid19-charts",
+        "img": "https://github.com/fenix15100/react-covid19-charts/blob/master/Screenshot.PNG?raw=true",
         "badge": [
             {
                 "title": "react",
-                "color": "danger"
+                "color": "primary"
             }
         ],
-        "description": "loreloreloreloreloresdsdfddsfsdddddddddd",
-        "fullDescription": "mala raza",
-        "github": "https://github.com",
-        "liveDemo": "https://github.com"
+        "description": "Proyecto realizado en react que monitoriza y grafica en tiempo real el estado del COVID-19.",
+        "fullDescription": "Proyecto realizado en react que monitoriza y grafica el estado actual del COVID-19, Se compone de: <ul><li>React Hooks,</li><li>react-chartjs-2</li><li>Axios</li>",
+        "github": "https://github.com/fenix15100/react-covid19-charts",
+        "liveDemo": "https://react-covid19-tracker.herokuapp.com/"
 
 
     },
