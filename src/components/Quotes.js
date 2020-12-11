@@ -1,13 +1,12 @@
 import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import Nav from 'react-bootstrap/Nav';
-import {isMobile} from 'react-device-detect';
 import './css/Quotes.css';
 
 const Quotes = () => {
     return (
       <Carousel 
-        controls={isMobile?false:true} 
+        controls={false} 
         indicators={false} 
         interval={4000}
         >
