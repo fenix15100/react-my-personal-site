@@ -20,7 +20,10 @@ const Project = ({project,setModalShow,setModalContent}) => {
                 <Card.Title>
                     {project.title}<br/> 
                     {project.badge.map((badge,index) =>(
-                        <Badge key={index} pill variant={badge.color}>{badge.title}</Badge>
+                        <>
+                            <Badge key={index} pill variant={badge.color}>{badge.title}</Badge>
+                            <span>&nbsp;</span>
+                        </>
                     ))}
                 </Card.Title>
                 <Card.Text>

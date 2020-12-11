@@ -4,6 +4,10 @@
         "img": "https://github.com/fenix15100/react-covid19-charts/blob/master/Screenshot.PNG?raw=true",
         "badge": [
             {
+                "title": "js",
+                "color": "warning"
+            },
+            {
                 "title": "react",
                 "color": "primary"
             }
